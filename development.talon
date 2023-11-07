@@ -19,10 +19,15 @@ git delete local tag: "git tag -d v"
 git delete remote tag: "git push --delete origin v"
 git reset merge: "git reset --merge"
 # Editor
+splodge:
+    edit.paste()
+snatch:
+    edit.select_all()
+    edit.cut()
 replace word:
     edit.select_word()
     edit.paste()
-selector:
+grab:
     key("shift:down")
     mouse_click(0)
     key("shift:up")
@@ -32,6 +37,15 @@ donk:
     mouse_click(0)
     key("alt:up")
     key("shift:up")
-another occurrence: key(cmd-d)
+swarm: key(cmd-d)
 #NPM
 run install endpoints: "npm install https://bitbucket.org/oneiota/mesh-connect-endpoints.git\#branch"
+run serverless <user.text> [over]:
+    insert("serverless ")
+    insert(text)
+    sleep(100ms)
+run NPM <user.text> [over]:
+    insert("npm ")
+    insert(text)
+    sleep(100ms)
+disk: edit.save()
