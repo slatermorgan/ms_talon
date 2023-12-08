@@ -1,0 +1,52 @@
+{
+  "nilCheck": {
+    "definitions": [
+      {
+        "scope": {
+          "langIds": [
+            "go"
+          ]
+        },
+        "body": [
+          "if $condition != nil {",
+          "\t$consequence",
+          "}"
+        ]
+      }
+    ],
+    "description": "Check condition not nil",
+    "variables": {
+      "consequence": {
+        "wrapperScopeType": "statement"
+      }
+    },
+    "insertionScopeTypes": [
+      "statement"
+    ]
+  },
+  "errCheck": {
+    "definitions": [
+      {
+        "scope": {
+          "langIds": [
+            "go"
+          ]
+        },
+        "body": [
+          "if err != nil {",
+          "\t$body",
+          "}"
+        ]
+      }
+    ],
+    "description": "Check if not nil",
+    "variables": {
+      "body": {
+        "wrapperScopeType": "statement"
+      }
+    },
+    "insertionScopeTypes": [
+      "statement"
+    ]
+  }
+}
