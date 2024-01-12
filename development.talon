@@ -1,6 +1,7 @@
 # Editor
 splodge:
     edit.paste()
+
 snatch:
     edit.select_all()
     edit.cut()
@@ -12,10 +13,6 @@ grab:
     mouse_click(0)
     key("shift:up")
 donk:
-    key("shift:down")
-    key("alt:down")
-    mouse_click(0)
-    key("alt:up")
-    key("shift:up")
+    key("cmd-enter")
 swarm: key(cmd-d)
 disk: edit.save()
