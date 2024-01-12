@@ -48,4 +48,8 @@ run NPM <user.text> [over]:
     insert("npm ")
     insert(text)
     sleep(100ms)
+run docker compose <user.text> [over]:
+    insert("docker compose ")
+    insert(text)
+    sleep(100ms)
 disk: edit.save()
