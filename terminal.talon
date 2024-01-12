@@ -1,6 +1,6 @@
-tag: terminal
+#tag: terminal
 
--
+#-
 
 # AWS
 # aws logs tail /aws/lambda/pro-direct-customersV1-dev-getProfile --follow  --profile [<user.aws>]
@@ -23,18 +23,22 @@ run NPM <user.text> [over]:
 run go coverage: "go test ./... -v -cover"
 run go tests: "go test ./..."
 run go mod tidy: "go mod tidy"
+open mod file: "code go.mod"
 run go get: "go get -u "
 insert replace directive: "replace github.com/this => ../this"
 run go replace: "go mod edit -replace this="
 # Git
 git branch: "git branch"
 git fetch: "git fetch"
+git list: "git status"
 git pull upstream: "git pull upstream "
 git pull origin: "git pull origin "
 git stash apply: "git stash apply"
 git stash changes: "git stash"
 git cherry pick: "git cherry-pick "
 git tag: "git tag v"
+git log: "git log"
+git stat: "git status"
 git push tags: "git push --tags"
 git delete local tag: "git tag -d v"
 git delete remote tag: "git push --delete origin v"
