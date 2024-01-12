@@ -1,0 +1,23 @@
+{
+	"pop": {
+		"sounds": ["pop"],
+		"threshold": {
+			">power": 5,
+			">probability": 0.995
+		},
+		"throttle": {
+			"cluck": 0.30
+		}
+	},
+	"cluck": {
+		"sounds": ["6000-cluck-3-mic"],
+		"threshold": {
+			">power": 20,
+			">probability": 0.995
+		},
+		"throttle": {
+			"cluck": 0.50,
+			"pop": 0.50
+		}
+	}
+}
