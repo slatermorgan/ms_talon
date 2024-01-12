@@ -48,5 +48,30 @@
     "insertionScopeTypes": [
       "statement"
     ]
+  },
+  "forRange": {
+    "definitions": [
+      {
+        "scope": {
+          "langIds": [
+            "go"
+          ]
+        },
+        "body": [
+          "for _, v := range $iterator {",
+          "\t$consequence",
+          "}"
+        ]
+      }
+    ],
+    "description": "For range",
+    "variables": {
+      "body": {
+        "wrapperScopeType": "statement"
+      }
+    },
+    "insertionScopeTypes": [
+      "statement"
+    ]
   }
 }
