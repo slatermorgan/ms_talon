@@ -73,5 +73,41 @@
     "insertionScopeTypes": [
       "statement"
     ]
+  },
+  "tests": {
+    "definitions": [
+      {
+        "scope": {
+          "langIds": [
+            "go"
+          ]
+        },
+        "body": [
+          "func Test$name(t *testing.T) {",
+          "\tvar tests = []struct {",
+          "\t\tname   string",
+          "\t\texpect string",
+          "\t}{",
+          "\t\t{},",
+          "\t}",
+          "",
+          "\tfor _, tt := range tests {",
+          "\t\tt.Run(tt.name, func(t *testing.T) {",
+          "",
+          "\t\t})",
+          "\t}",
+          "}"
+        ]
+      }
+    ],
+    "description": "Tests in array format",
+    "variables": {
+      "body": {
+        "wrapperScopeType": "statement"
+      }
+    },
+    "insertionScopeTypes": [
+      "statement"
+    ]
   }
 }
