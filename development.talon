@@ -15,4 +15,5 @@ grab:
 donk:
     key("cmd-enter")
 swarm: key(cmd-d)
+plant preview: key(alt-d)
 disk: edit.save()
