@@ -29,5 +29,6 @@ run docker compose <user.text> [over]:
     insert("docker compose ")
     insert(text)
     sleep(100ms)
+plant preview: key(alt-d)
 disk: edit.save()
 gopher:":=" 
