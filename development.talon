@@ -30,3 +30,4 @@ run docker compose <user.text> [over]:
     insert(text)
     sleep(100ms)
 disk: edit.save()
+gopher:":=" 
