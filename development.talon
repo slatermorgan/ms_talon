@@ -1,5 +1,5 @@
 # Editor
-splodge:
+donk:
     edit.paste()
 
 snatch:
@@ -12,8 +12,6 @@ grab:
     key("shift:down")
     mouse_click(0)
     key("shift:up")
-donk:
-    key("cmd-enter")
 swarm: key(cmd-d)
 plant preview: key(alt-d)
 disk: edit.save()
