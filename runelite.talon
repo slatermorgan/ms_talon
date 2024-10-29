@@ -17,10 +17,3 @@ magic: key(f6)
 friends: key(f8)
 clans: key(f7)
 music: key(f12)
-
-parrot(cluckdisabled):
-    key("{modifiers}:down")
-    mouse_click(1)
-    key("{modifiers}:up")
-    # close the mouse grid
-    user.grid_close()
