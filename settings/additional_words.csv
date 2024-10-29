@@ -29,6 +29,7 @@ delimiters
 dfa
 dir
 doc,dock
+docker
 docs,docks
 edit
 edits
@@ -95,3 +96,4 @@ endpoints,end points
 front-end, front end
 under-documented,under documented
 API, ay pee eye
+id
