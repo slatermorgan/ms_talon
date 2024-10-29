@@ -1,57 +1,11 @@
 Path,Spoken
-/Users/morgan,user
-/Users/morgan,profile
-/Users/morgan/Desktop,desktop
-/Users/morgan/Desktop,desk
-/Users/morgan/Documents,documents
-/Users/morgan/Documents,docks
-/Users/morgan/Downloads,downloads
-/Users/morgan/Music,music
-/Users/morgan/Pictures,pictures
-/Users/morgan/Videos,videos
-/Users/morgan/.talon,talon home
-/Users/morgan/.talon/user,talon user
-/Users/morgan/,root
-/Users/morgan/go/src/bitbucket.org/oneiota/mesh-connect-endpoints/,mesh endpoints
-/Users/morgan/go/src/bitbucket.org/oneiota/adyen-connector,adyen connector
-/Users/morgan/go/src/bitbucket.org/oneiota/golang-ecr-pipeline,golang ECR pipeline
-/Users/morgan/go/src/bitbucket.org/oneiota/mesh-connect-models,mesh connect models
-/Users/morgan/go/src/bitbucket.org/oneiota/prismic-connector,prismic connector
-/Users/morgan/go/src/bitbucket.org/oneiota/adyen-sdk,adyen SDK
-/Users/morgan/go/src/bitbucket.org/oneiota/hugoboss-changing-room,hugo boss changing room
-/Users/morgan/go/src/bitbucket.org/oneiota/mesh-connect-pro-direct,mesh connect pro direct
-/Users/morgan/go/src/bitbucket.org/oneiota/prismic-sdk,prismic SDK
-/Users/morgan/go/src/bitbucket.org/oneiota/pro-direct-connector,pro direct connector
-/Users/morgan/go/src/bitbucket.org/oneiota/bazaarvoice-connector,bazaarvoice connector
-/Users/morgan/go/src/bitbucket.org/oneiota/klarna-sdk,klarna SDK
-/Users/morgan/go/src/bitbucket.org/oneiota/bazaarvoice-sdk-go,bazaarvoice sdk
-/Users/morgan/go/src/bitbucket.org/oneiota/magento2-connector,magento 2 connector
-/Users/morgan/go/src/bitbucket.org/oneiota/mesh-connect-sportsshoes,mesh connect sportsshoes
-/Users/morgan/go/src/bitbucket.org/oneiota/pro-direct-sdk,pro direct SDK
-/Users/morgan/go/src/bitbucket.org/oneiota/bigcommerce-connector,bigcommerce connector
-/Users/morgan/go/src/bitbucket.org/oneiota/magento2-sdk,magento 2 SDK
-/Users/morgan/go/src/bitbucket.org/oneiota/mesh-connect-sportsshoes-endpoints,sportsshoes endpoints
-/Users/morgan/go/src/bitbucket.org/oneiota/s3-connector,S3 connector
-/Users/morgan/go/src/bitbucket.org/oneiota/bigcommerce-sdk,bigcommerce SDK
-/Users/morgan/go/src/bitbucket.org/oneiota/mesh-connect,mesh connect
-/Users/morgan/go/src/bitbucket.org/oneiota/mesh-connect-sportsshoes-handlers,sportsshoes handlers
-/Users/morgan/go/src/bitbucket.org/oneiota/bloomreach-connector,bloomreach connector
-/Users/morgan/go/src/bitbucket.org/oneiota/mesh-connect-authentication,mesh connect authentication
-/Users/morgan/go/src/bitbucket.org/oneiota/mesh-connect-sportsshoes-models,sportsshoes models
-/Users/morgan/go/src/bitbucket.org/oneiota/serviceerror,service error
-/Users/morgan/go/src/bitbucket.org/oneiota/bloomreach-sdk,bloomreach SDK
-/Users/morgan/go/src/bitbucket.org/oneiota/mesh-connect-base-models,mesh connect base models
-/Users/morgan/go/src/bitbucket.org/oneiota/mesh-content,mesh content
-/Users/morgan/go/src/bitbucket.org/oneiota/sportsshoes-connector,sportsshoes connector
-/Users/morgan/go/src/bitbucket.org/oneiota/clerk-sdk,clerk sdk
-/Users/morgan/go/src/bitbucket.org/oneiota/mesh-connect-common,mesh connect common
-/Users/morgan/go/src/bitbucket.org/oneiota/mesh-generator,mesh generator
-/Users/morgan/go/src/bitbucket.org/oneiota/sportsshoes-sdk,sportsshoes SDK
-/Users/morgan/go/src/bitbucket.org/oneiota/concurrent-go,concurrent go
-/Users/morgan/go/src/bitbucket.org/oneiota/mesh-connect-endpoints,mesh connect endpoints
-/Users/morgan/go/src/bitbucket.org/oneiota/mesh-connect-handlers,mesh connect handlers
-/Users/morgan/go/src/bitbucket.org/oneiota/waf-insights,waf insights
-/Users/morgan/go/src/bitbucket.org/oneiota/fredhopper-connector,fredhopper connector
-/Users/morgan/go/src/bitbucket.org/oneiota/oi-http,oh I http
-/Users/morgan/go/src/bitbucket.org/oneiota/fredhopper-sdk-go,fredhopper SDK
-/Users/morgan/go/src/bitbucket.org/oneiota/paypal-sdk,paypal SDK
+/Users/morgan/SourceCode, source code
+/Users/morgan/SourceCode/go/src/gitlab.com/learnd/platform, platform
+/Users/morgan/SourceCode/go/src/gitlab.com/learnd/platform/database, database
+/Users/morgan/SourceCode/go/src/gitlab.com/learnd/platform/agent, agent
+/Users/morgan/SourceCode/go/src/gitlab.com/learnd/platform/service, service
+/Users/morgan/SourceCode/go/src/gitlab.com/learnd/platform/local-infra, local infer
+/Users/morgan/SourceCode/go/src/gitlab.com/learnd/frontend/mobile-app-expo, mobile app expo
+/Users/morgan/SourceCode/go/src/gitlab.com/learnd/frontend/portal, portal
+/Users/morgan/SourceCode/go/src/github.com/slatermorgan/machinesdream, machine dreams
+/private/etc/, host file
