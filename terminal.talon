@@ -48,3 +48,12 @@ git push tags: "git push --tags"
 git delete local tag: "git tag -d v"
 git delete remote tag: "git push --delete origin v"
 git reset merge: "git reset --merge"
+
+# Docker
+docker network inspect: "docker network inspect "
+docker compose up: "docker compose up"
+docker compose up build: "docker compose up --build"
+docker compose down: "docker compose down"
+docker compose kill: "docker compose kill"
+docker pee es: "docker ps"
+docker network el es: "docker network ls"
