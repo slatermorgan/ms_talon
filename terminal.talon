@@ -30,6 +30,13 @@ run go get: "go get -u "
 insert replace directive: "replace github.com/this => ../this"
 run go replace: "go mod edit -replace this="
 
+# Dotnet
+dot net run: "dotnet run"
+dot net run debug mode: "dotnet run --configuration Debug"
+dotnet restore: "dotnet restore"
+dotnet build: "dotnet build"
+dot net version: "dotnet --version"
+
 # Git
 git branch: "git branch"
 git fetch: "git fetch"
