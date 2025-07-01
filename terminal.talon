@@ -32,10 +32,17 @@ run go replace: "go mod edit -replace this="
 
 # Dotnet
 dot net run: "dotnet run"
+dot net test: "dotnet test"
 dot net run debug mode: "dotnet run --configuration Debug"
 dotnet restore: "dotnet restore"
 dotnet build: "dotnet build"
 dot net version: "dotnet --version"
+
+# Python
+python install: "python -m pip install -e ."
+pip install: "pip install"
+conda info: "conda info"
+conda init: "conda init"
 
 # Git
 git branch: "git branch"
@@ -64,3 +71,6 @@ docker compose down: "docker compose down"
 docker compose kill: "docker compose kill"
 docker pee es: "docker ps"
 docker network el es: "docker network ls"
+
+# Code
+code here: "code ."
