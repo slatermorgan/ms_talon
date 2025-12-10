@@ -9,7 +9,6 @@ tag follow: --follow
 tag profile [<user.aws>]: --profile [<user.aws>]
 
 # NPM
-run install endpoints: "npm install https://bitbucket.org/oneiota/mesh-connect-endpoints.git\#branch"
 run serverless <user.text> [over]:
     insert("serverless ")
     insert(text)
@@ -72,5 +71,25 @@ docker compose kill: "docker compose kill"
 docker pee es: "docker ps"
 docker network el es: "docker network ls"
 
+# Podman
+pod man network inspect: "podman network inspect "
+pod man compose up: "podman compose up"
+pod man compose up build: "podman compose up --build"
+pod man compose down: "podman compose down"
+pod man compose kill: "podman compose kill"
+pod man pee es: "podman ps"
+pod man network el es: "podman network ls"
+
 # Code
 code here: "code ."
+cursor here: "cursor ."
+cursor agent: "cursor-agent "
+cursor agent: "cursor-agent "
+
+# Make
+make run local: "make run-local"
+make deploy dev: "make deploy-dev"
+
+# MirrorWeb
+S H tunnel to mac: "sh tunnel-to-mac.sh"
+mirror show accounts DB: "sqlite3 ~/Library/Application\ Support/com.mirrorweb.imessagecapture/accounts.db -json"
