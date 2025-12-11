@@ -79,6 +79,7 @@ pod man compose down: "podman compose down"
 pod man compose kill: "podman compose kill"
 pod man pee es: "podman ps"
 pod man network el es: "podman network ls"
+pod man stop all: "podman stop -a"
 
 # Code
 code here: "code ."
