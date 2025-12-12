@@ -93,6 +93,9 @@ make deploy dev: "make deploy-dev"
 
 to clip copy: " | pbcopy"
 
+# Brew
+brew install: "brew install "
+
 # MirrorWeb
 S H tunnel to mac: "sh tunnel-to-mac.sh"
 mirror show accounts DB: "sqlite3 ~/Library/Application\ Support/com.mirrorweb.imessagecapture/accounts.db -json"
