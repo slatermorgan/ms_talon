@@ -9,12 +9,13 @@ tag follow: --follow
 tag profile [<user.aws>]: --profile [<user.aws>]
 
 # NPM
+N P M install: "npm install"
 run serverless <user.text> [over]:
     insert("serverless ")
     insert(text)
     sleep(100ms)
-run NPM <user.text> [over]:
-    insert("npm ")
+N P M run <user.text> [over]:
+    insert("npm run ")
     insert(text)
     sleep(100ms)
 
@@ -42,6 +43,9 @@ python install: "python -m pip install -e ."
 pip install: "pip install"
 conda info: "conda info"
 conda init: "conda init"
+
+# Yarn
+yarn install: "yarn install"
 
 # Git
 git branch: "git branch"
@@ -81,15 +85,56 @@ pod man pee es: "podman ps"
 pod man network el es: "podman network ls"
 pod man stop all: "podman stop -a"
 
+cat make file:
+    insert("cat Makefile")
+    key("enter")
+cat package jason:
+    insert("cat package.json")
+    key("enter")
+
+cat package jason scripts:
+    insert("jq '.scripts' package.json")
+    key("enter")
+
 # Code
-code here: "code ."
-cursor here: "cursor ."
+code here:
+    insert("code .")
+    key("enter")
+
+cursor here:
+    insert("cursor .")
+    key("enter")
 cursor agent: "cursor-agent "
 cursor agent: "cursor-agent "
 
 # Make
-make run local: "make run-local"
-make deploy dev: "make deploy-dev"
+make run local:
+    insert("make run-local")
+    key("enter")
+make test unit:
+    insert("make test-unit")
+    key("enter")
+make deploy dev:
+    insert("make deploy-dev")
+    key("enter")
+make test:
+    insert("make test")
+    key("enter")
+make lint:
+    insert("make lint")
+    key("enter")
+make clean:
+    insert("make clean")
+    key("enter")
+make local:
+    insert("make local")
+    key("enter")
+make specs:
+    insert("make specs")
+    key("enter")
+make generate:
+    insert("make generate")
+    key("enter")
 
 to clip copy: " | pbcopy"
 
@@ -98,4 +143,5 @@ brew install: "brew install "
 
 # MirrorWeb
 S H tunnel to mac: "sh tunnel-to-mac.sh"
+Trigger P C M event: "sh trigger-pcm-event.sh"
 mirror show accounts DB: "sqlite3 ~/Library/Application\ Support/com.mirrorweb.imessagecapture/accounts.db -json"
