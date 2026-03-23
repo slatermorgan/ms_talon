@@ -59,7 +59,9 @@ git stash apply: "git stash apply"
 git stash changes: "git stash"
 git cherry pick: "git cherry-pick "
 git tag: "git tag v"
-git log: "git log"
+git log:
+    insert("git log")
+    key("enter")
 git stat: "git status"
 git push tags: "git push --tags"
 git delete local tag: "git tag -d v"
@@ -145,3 +147,12 @@ brew install: "brew install "
 S H tunnel to mac: "sh tunnel-to-mac.sh"
 Trigger P C M event: "sh trigger-pcm-event.sh"
 mirror show accounts DB: "sqlite3 ~/Library/Application\ Support/com.mirrorweb.imessagecapture/accounts.db -json"
+
+# Vibes
+vibe ask: "/ask"
+vibe plan: "/plan "
+vibe model: "/model "
+
+commit message chore: "chore: "
+commit message fix: "fix: "
+commit message feat: "feat: "
